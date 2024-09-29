@@ -31,7 +31,7 @@ public class Day15 {
                     """
                             """,
                     new BufferedReader(new FileReader(
-                            "N:\\Drive\\Programming\\Java\\AdventOfCode2023Take2\\src\\main\\java\\org\\example\\advents\\Day15\\Input.txt"))
+                            "N:\\Drive\\Programming\\Java\\AdventOfCode2023Take2\\src\\main\\java\\net\\ethanstewart\\advents\\Day15\\Input.txt"))
                             .lines().collect(Collectors.joining("\n")), DEBUG_MODE);
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
