@@ -29,19 +29,19 @@ public class Day8 {
                     """
                             """,
                     new BufferedReader(new FileReader(
-                            "N:\\Drive\\Programming\\AdventOfCode2023Take2\\src\\main\\java\\org\\example\\advents\\Day8\\Input.txt"))
+                            "N:\\Drive\\Programming\\Java\\AdventOfCode2023Take2\\src\\main\\java\\net\\ethanstewart\\advents\\Day8\\Input.txt"))
                             .lines().collect(Collectors.joining("\n")), DEBUG_MODE);
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
         }
     }
 
-    private static long part1() {
+    public static long part1() {
         Network network = Network.parseNetwork(INPUT_MANAGER.getInput());
         return network.distanceToMatchingId(network.nodeMap().get("AAA"), "ZZZ");
     }
 
-    private static long part2() {
+    public static long part2() {
         Network network = Network.parseNetwork(INPUT_MANAGER.getInput());
         long[] startingNodes = network
                 .nodeMap()

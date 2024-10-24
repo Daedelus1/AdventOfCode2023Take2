@@ -26,20 +26,20 @@ public class Day4 {
                     """
                             """,
                     new BufferedReader(new FileReader(
-                            "N:\\Drive\\Programming\\AdventOfCode2023Take2\\src\\main\\java\\org\\example\\advents\\Day4\\Input.txt"))
+                            "N:\\Drive\\Programming\\Java\\AdventOfCode2023Take2\\src\\main\\java\\net\\ethanstewart\\advents\\Day4\\Input.txt"))
                             .lines().collect(Collectors.joining("\n")), DEBUG_MODE);
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
         }
     }
 
-    private static int part1() {
+    public static int part1() {
         return Arrays.stream(INPUT_MANAGER.getInput().trim().split("\\n"))
                 .map(Card::parseCard)
                 .mapToInt(Card::numPoints).sum();
     }
 
-    private static int part2() {
+    public static int part2() {
         Card[] cards = Arrays.stream(INPUT_MANAGER.getInput().trim().split("\\n"))
                 .map(Card::parseCard)
                 .toArray(Card[]::new);

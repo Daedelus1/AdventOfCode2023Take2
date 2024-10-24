@@ -27,21 +27,21 @@ public class Day9 {
                     """
                             """,
                     new BufferedReader(new FileReader(
-                            "N:\\Drive\\Programming\\AdventOfCode2023Take2\\src\\main\\java\\org\\example\\advents\\Day9\\Input.txt"))
+                            "N:\\Drive\\Programming\\Java\\AdventOfCode2023Take2\\src\\main\\java\\net\\ethanstewart\\advents\\Day9\\Input.txt"))
                             .lines().collect(Collectors.joining("\n")), DEBUG_MODE);
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
         }
     }
 
-    private static long part1() {
+    public static long part1() {
         return Arrays.stream(INPUT_MANAGER.getInput().trim().split("\\n"))
                 .map(PolynomialSequence::parseSequence)
                 .mapToLong(PolynomialSequence::interpolateToNextPoint)
                 .sum();
     }
 
-    private static long part2() {
+    public static long part2() {
         return Arrays.stream(INPUT_MANAGER.getInput().trim().split("\\n"))
                 .map(PolynomialSequence::parseSequence)
                 .mapToLong(PolynomialSequence::interpolateToPointBeforeFirst)

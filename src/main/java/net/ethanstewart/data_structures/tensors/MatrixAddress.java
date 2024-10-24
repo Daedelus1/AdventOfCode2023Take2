@@ -40,20 +40,24 @@ public class MatrixAddress extends Addressable<MatrixAddress> {
         return new MatrixAddress(0, 0);
     }
     
-    MatrixAddress add(MatrixAddress addend) {
+    public MatrixAddress add(MatrixAddress addend) {
         return new MatrixAddress(this.x + addend.x, this.y + addend.y);
     }
     
-    MatrixAddress subtract(MatrixAddress subtrahend) {
+    public MatrixAddress subtract(MatrixAddress subtrahend) {
         return new MatrixAddress(this.x - subtrahend.x, this.y - subtrahend.y);
     }
     
-    MatrixAddress difference(MatrixAddress other) {
+    public MatrixAddress difference(MatrixAddress other) {
         return this.subtract(other).abs();
     }
     
-    MatrixAddress abs() {
+    public MatrixAddress abs() {
         return new MatrixAddress(Math.abs(this.x), Math.abs(this.y));
+    }
+
+    public MatrixAddress scale(long scalar) {
+        return new MatrixAddress(x * scalar, y * scalar);
     }
     
     @Override

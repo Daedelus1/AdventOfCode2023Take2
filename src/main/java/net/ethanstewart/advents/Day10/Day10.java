@@ -37,18 +37,18 @@ public class Day10 {
                             L.L7LFJ|||||FJL7||LJ
                             L7JLJL-JLJLJL--JLJ.L""",
                     new BufferedReader(new FileReader(
-                            "N:\\Drive\\Programming\\AdventOfCode2023Take2\\src\\main\\java\\org\\example\\advents\\Day10\\Input.txt"))
+                            "N:\\Drive\\Programming\\Java\\AdventOfCode2023Take2\\src\\main\\java\\net\\ethanstewart\\advents\\Day10\\Input.txt"))
                             .lines().collect(Collectors.joining("\n")), DEBUG_MODE);
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
         }
     }
 
-    private static long part1() {
+    public static long part1() {
         return PipeDeprecatedMatrix.parsePipeMatrix(INPUT_MANAGER.getInput()).getLoop().size() / 2;
     }
 
-    private static long part2() {
+    public static long part2() {
         return PipeDeprecatedMatrix.parsePipeMatrix(INPUT_MANAGER.getInput()).getEnclosedArea();
     }
 

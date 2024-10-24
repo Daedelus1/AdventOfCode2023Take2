@@ -37,7 +37,7 @@ public class Day1 {
 
     static {
         try {
-            INPUT_STRING = new BufferedReader(new FileReader("N:\\Drive\\Programming\\Java\\AdventOfCode2023Take2\\src\\main\\java\\org\\example\\advents\\Day1\\Input.txt"))
+            INPUT_STRING = new BufferedReader(new FileReader("N:\\Drive\\Programming\\Java\\AdventOfCode2023Take2\\src\\main\\java\\net\\ethanstewart\\advents\\Day1\\Input.txt"))
                     .lines().collect(Collectors.joining("\n"));
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
@@ -69,16 +69,16 @@ public class Day1 {
         }
     }
 
-    public static int partOne() {
+    public static int part1() {
         return Arrays.stream(INPUT_STRING.split("\\n")).mapToInt(line -> Day1.findCalibrationValueOfLine(line, NUMBER_REGEX)).sum();
     }
 
-    public static int partTwo() {
+    public static int part2() {
         return Arrays.stream(INPUT_STRING.split("\\n")).mapToInt(line -> Day1.findCalibrationValueOfLine(line, NUMBER_AND_NAME_REGEX)).sum();
     }
 
     public static void main(String[] args) {
-        System.out.printf("Part 1: %s\n", partOne());
-        System.out.printf("Part 2: %s\n", partTwo());
+        System.out.printf("Part 1: %s\n", part1());
+        System.out.printf("Part 2: %s\n", part2());
     }
 }

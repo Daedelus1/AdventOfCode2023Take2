@@ -34,14 +34,14 @@ public class Day3 {
                     """
                             """,
                     new BufferedReader(new FileReader(
-                            "N:\\Drive\\Programming\\AdventOfCode2023Take2\\src\\main\\java\\org\\example\\advents\\Day3\\Input.txt"))
+                            "N:\\Drive\\Programming\\Java\\AdventOfCode2023Take2\\src\\main\\java\\net\\ethanstewart\\advents\\Day3\\Input.txt"))
                             .lines().collect(Collectors.joining("\n")), DEBUG_MODE);
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
         }
     }
 
-    private static int part1() {
+    public static int part1() {
         Engine engine = Engine.parseEngine(INPUT_MANAGER.getInput());
         return engine.getAllNumberRegions()
                 .stream()
@@ -52,7 +52,7 @@ public class Day3 {
                 .sum();
     }
 
-    private static int part2() {
+    public static int part2() {
         Engine engine = Engine.parseEngine(INPUT_MANAGER.getInput());
         int[][] counts = new int[engine.getMatrixDimensions().height()][engine.getMatrixDimensions().height()];
         ImmutableSet<DeprecatedRegion> allNumberRegions = engine.getAllNumberRegions();

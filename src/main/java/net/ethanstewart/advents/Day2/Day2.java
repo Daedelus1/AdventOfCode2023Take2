@@ -29,14 +29,14 @@ public class Day2 {
                             Game 3: 8 green, 6 blue, 20 red; 5 blue, 4 red, 13 green; 5 green, 1 red
                             Game 4: 1 green, 3 red, 6 blue; 3 green, 6 red; 3 green, 15 blue, 14 red
                             Game 5: 6 red, 1 blue, 3 green; 2 blue, 1 red, 2 green""", new BufferedReader(new FileReader(
-                    "N:\\Drive\\Programming\\AdventOfCode2023Take2\\src\\main\\java\\org\\example\\advents\\Day2\\Input.txt"))
+                    "N:\\Drive\\Programming\\Java\\AdventOfCode2023Take2\\src\\main\\java\\net\\ethanstewart\\advents\\Day2\\Input.txt"))
                     .lines().collect(Collectors.joining("\n")), DEBUG_MODE);
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
         }
     }
 
-    private static int part1() {
+    public static int part1() {
         ImmutableMap<Color, Integer> maxCounts = ImmutableMap.<Color, Integer>builder()
                 .put(Color.RED, 12)
                 .put(Color.GREEN, 13)
@@ -49,7 +49,7 @@ public class Day2 {
                 .sum();
     }
 
-    private static int part2() {
+    public static int part2() {
         return Arrays.stream(INPUT_MANAGER.getInput().split("\\n"))
                 .map(Game::parseGame)
                 .mapToInt(Game::getPower)

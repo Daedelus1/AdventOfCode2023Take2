@@ -1,6 +1,7 @@
 package net.ethanstewart.advents.Day7;
 
 import com.google.common.collect.ImmutableSet;
+import net.ethanstewart.data_structures.DebugMode;
 
 import java.util.Arrays;
 import java.util.Comparator;

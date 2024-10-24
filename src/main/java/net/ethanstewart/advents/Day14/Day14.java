@@ -59,8 +59,8 @@ public class Day14 {
         matrix.set(address1, matrix.get(address2));
         matrix.set(address2, temp);
     }
-    
-    private static long part1() {
+
+    public static long part1() {
         MutableMatrix<Tile> platform = PLATFORM_SUPPLIER.get();
         pushRocks(platform, Direction.NORTH);
         return platform.getAllAddresses().stream()
@@ -68,8 +68,8 @@ public class Day14 {
                 .mapToLong(a -> platform.getHeight() - a.getY())
                 .sum();
     }
-    
-    private static long part2() {
+
+    public static long part2() {
         TortoiseHareOutput tortoiseHareOutput = tortoiseHareCycleDetection(PLATFORM_SUPPLIER, Day14::spinCycle);
         MutableMatrix<Tile> platform = PLATFORM_SUPPLIER.get();
         long TOTAL_TRIALS = 1000000000;

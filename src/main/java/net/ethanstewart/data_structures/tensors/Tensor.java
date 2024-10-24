@@ -1,7 +1,5 @@
 package net.ethanstewart.data_structures.tensors;
 
-import com.google.common.collect.ImmutableList;
-import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.ImmutableSet;
 
 import java.util.Comparator;
@@ -38,25 +36,13 @@ public class Tensor<T, A extends Addressable<A>> {
         return bounds.getAllContainedAddresses();
     }
     
-    public SparseTensor<T, A> toSparseTensor(T valueOfVoid) {
-        ImmutableMap.Builder<A, T> builder = ImmutableMap.builder();
-        bounds.getAllContainedAddresses().forEach(address -> {
-            T value = data.get((int) bounds.indexAddress(address));
-            if (!value.equals(valueOfVoid)) {
-                builder.put(address, value);
-            }
-        });
-        return new SparseTensor<>(
-                builder.build(),
-                bounds,
-                valueOfVoid
-        );
+    public boolean containsAddress(A address) {
+        return bounds.contains(address);
     }
 
-    public ImmutableList<T> getData() {
-        return ImmutableList.copyOf(data);
+    public interface Mutable <T, A extends Addressable<A>> {
+        void set(A address, T value);
     }
-    
     @Override
     public boolean equals(Object obj) {
         return obj instanceof Tensor &&
@@ -68,4 +54,5 @@ public class Tensor<T, A extends Addressable<A>> {
     public String toString() {
         return String.format("[Bounds: %s, Data: %s]", bounds, data);
     }
+
 }

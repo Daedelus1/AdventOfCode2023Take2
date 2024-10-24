@@ -1,6 +1,5 @@
 package net.ethanstewart.data_structures.tensors;
 
-import java.util.Objects;
 import java.util.function.Function;
 
 public class Matrix<T> extends Tensor<T, MatrixAddress> {
