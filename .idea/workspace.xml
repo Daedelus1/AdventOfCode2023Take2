@@ -5,131 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec646b14-2bc9-4f83-8e13-beac7260f0dc" name="Changes" comment="Advents 1-15.a Complete">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/ethanstewart/advents/Day15/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/ethanstewart/advents/Day15/Entry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/ethanstewart/advents/Day15/Operation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/ethanstewart/advents/Day16/Day16.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/ethanstewart/advents/Day16/Direction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/ethanstewart/advents/Day16/Input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/ethanstewart/advents/Day16/Tile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/ethanstewart/advents/Day17/Day17.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/ethanstewart/advents/Day17/Direction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/ethanstewart/advents/Day17/Input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/ethanstewart/advents/Day17/TileInformation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/ethanstewart/advents/Day18/Day18.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/ethanstewart/advents/Day18/Direction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/ethanstewart/advents/Day18/Input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/ethanstewart/advents/Day19/Day19.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/ethanstewart/advents/Day19/Input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/ethanstewart/advents/Day19/Rating.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/ethanstewart/advents/Day19/Workflow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/ethanstewart/data_structures/tensors/Tensor3Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/net/ethanstewart/advents/AdventOutputTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ethanstewart/advents/Day20/BroadcasterModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ethanstewart/advents/Day20/ButtonModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ethanstewart/advents/Day20/ConjunctionModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ethanstewart/advents/Day20/CountingPriorityQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ethanstewart/advents/Day20/Day20.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ethanstewart/advents/Day20/FlipFlopModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ethanstewart/advents/Day20/Input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ethanstewart/advents/Day20/Module.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ethanstewart/advents/Day20/Pulse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ethanstewart/advents/Day20/State.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/ethanstewart/advents/Day1/Day1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/ethanstewart/advents/Day1/Day1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/ethanstewart/advents/Day10/Day10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/ethanstewart/advents/Day10/Day10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/ethanstewart/advents/Day11/Day11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/ethanstewart/advents/Day11/Day11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/ethanstewart/advents/Day12/Day12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/ethanstewart/advents/Day12/Day12.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/ethanstewart/advents/Day14/Day14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/ethanstewart/advents/Day14/Day14.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/ethanstewart/advents/Day15/Day15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/ethanstewart/advents/Day15/Day15.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/ethanstewart/advents/Day2/Day2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/ethanstewart/advents/Day2/Day2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/ethanstewart/advents/Day3/Day3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/ethanstewart/advents/Day3/Day3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/ethanstewart/advents/Day4/Day4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/ethanstewart/advents/Day4/Day4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/ethanstewart/advents/Day5/Day5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/ethanstewart/advents/Day5/Day5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/ethanstewart/advents/Day6/Day6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/ethanstewart/advents/Day6/Day6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/ethanstewart/advents/Day7/Day7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/ethanstewart/advents/Day7/Day7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/ethanstewart/advents/Day7/Round.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/ethanstewart/advents/Day7/Round.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/ethanstewart/advents/Day8/Day8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/ethanstewart/advents/Day8/Day8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/ethanstewart/advents/Day9/Day9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/ethanstewart/advents/Day9/Day9.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/ethanstewart/data_structures/tensors/Addressable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/ethanstewart/data_structures/tensors/Addressable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/ethanstewart/data_structures/tensors/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/ethanstewart/data_structures/tensors/Matrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/ethanstewart/data_structures/tensors/MatrixAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/ethanstewart/data_structures/tensors/MatrixAddress.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/ethanstewart/data_structures/tensors/MutableMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/ethanstewart/data_structures/tensors/MutableMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/ethanstewart/data_structures/tensors/MutableTensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/ethanstewart/data_structures/tensors/MutableTensor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/ethanstewart/data_structures/tensors/Tensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/ethanstewart/data_structures/tensors/Tensor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/BinaryLogic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/advents/Day1/Day1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/advents/Day10/Day10.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/advents/Day10/PipeDeprecatedMatrix.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/advents/Day10/PipeSegment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/advents/Day10/PipeWall.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/advents/Day11/Day11.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/advents/Day11/Image.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/advents/Day12/Day12.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/advents/Day12/SpringRow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/advents/Day14/Day14$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/advents/Day14/Day14$Direction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/advents/Day14/Day14$TortoiseHareOutput.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/advents/Day14/Day14.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/advents/Day14/Tile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/advents/Day15/Day15$Command.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/advents/Day15/Day15$Entry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/advents/Day15/Day15$Operation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/advents/Day15/Day15.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/advents/Day2/Day2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/advents/Day2/Game.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/advents/Day2/Round$Color.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/advents/Day2/Round.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/advents/Day3/Day3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/advents/Day3/Engine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/advents/Day3/Tile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/advents/Day4/Card.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/advents/Day4/Day4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/advents/Day5/Day5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/advents/Day5/Item.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/advents/Day5/ItemManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/advents/Day5/ItemMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/advents/Day5/Range.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/advents/Day6/Day6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/advents/Day6/Race.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/advents/Day7/Bid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/advents/Day7/Card.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/advents/Day7/Day7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/advents/Day7/Hand$HandType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/advents/Day7/Hand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/advents/Day7/Round.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/advents/Day8/Day8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/advents/Day8/Direction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/advents/Day8/Network$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/advents/Day8/Network$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/advents/Day8/Network.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/advents/Day8/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/advents/Day9/Day9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/advents/Day9/PolynomialSequence.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/data_structures/DebugMode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/data_structures/ImmutableBitmap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/data_structures/InputManager$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/data_structures/InputManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/data_structures/MutableBitmap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/data_structures/deprecated/DeprecatedCoordinate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/data_structures/deprecated/DeprecatedDimension.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/data_structures/deprecated/DeprecatedDirection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/data_structures/deprecated/DeprecatedMatrix.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/data_structures/deprecated/DeprecatedMatrixFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/data_structures/deprecated/DeprecatedRegion$Direction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/data_structures/deprecated/DeprecatedRegion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/data_structures/tensors/Addressable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/data_structures/tensors/Matrix.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/data_structures/tensors/MatrixAddress.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/data_structures/tensors/MutableMatrix.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/data_structures/tensors/MutableTensor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/data_structures/tensors/SparseTensor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/data_structures/tensors/Tensor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/data_structures/tensors/View.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/target/classes/net/ethanstewart/template/DayTemplate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/net/ethanstewart/advents/Day5/ItemManagerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/net/ethanstewart/advents/Day5/ItemMapperTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/net/ethanstewart/advents/Day5/RangeTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/net/ethanstewart/advents/Day6/RaceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/net/ethanstewart/advents/Day9/SequenceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/net/ethanstewart/data_structures/BitmapTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/net/ethanstewart/data_structures/tensors/MatrixAddressTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/net/ethanstewart/data_structures/tensors/MutableTensorTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/net/ethanstewart/data_structures/tensors/ViewTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/ethanstewart/data_structures/tensors/Tensor3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,10 +26,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
         <option value="Enum" />
         <option value="Interface" />
         <option value="Record" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -159,9 +46,12 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Daedelus1/AdventOfCode2023Take2.git&quot;,
-    &quot;accountId&quot;: &quot;05f50f9e-5338-4590-b164-b1158a702e20&quot;
+    &quot;accountId&quot;: &quot;a132acda-1781-4291-8d96-466b996399e8&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.jdks/openjdk-23.0.1/lib/src.zip!/java.base/java/util/PriorityQueue.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -179,39 +69,41 @@
     <option name="sortByType" value="true" />
     <option name="sortKey" value="BY_TYPE" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Day17.executor": "Run",
-    "Application.Day18.executor": "Run",
-    "Application.Day19.executor": "Run",
-    "JUnit.AdventOutputTests$Day8Test.executor": "Run",
-    "JUnit.AdventOutputTests.executor": "Run",
-    "JUnit.All in AdventOfCode2023Take2.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.ide.FileNotInSourceRootChecker.no.check": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "net.ethanstewart.advents.AdventOutputTest",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "N:/Drive/Programming/R/Test",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.updates",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Day17.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Day18.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Day19.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Day20.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AdventOutputTests$Day8Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AdventOutputTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in AdventOfCode2023Take2.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.ide.FileNotInSourceRootChecker.no.check&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;net.ethanstewart.advents.AdventOutputTest&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ethan/Documents/GitHub/AdventOfCode2023Take2/src/main/java/net/ethanstewart/advents/Day20&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.maddyhome.idea.vim.ui.VimEmulationConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ethan\Documents\GitHub\AdventOfCode2023Take2\src\main\java\net\ethanstewart\advents\Day20" />
       <recent name="N:\Drive\Programming\Java\AdventOfCode2023Take2\src\main\java\net\ethanstewart\data_structures\tensors" />
       <recent name="N:\Drive\Programming\Java\AdventOfCode2023Take2\src\main\java\net\ethanstewart" />
     </key>
@@ -229,26 +121,14 @@
       <recent name="net.ethanstewart.advents.Day1" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="net.ethanstewart.advents.Day20" />
       <recent name="net.ethanstewart.advents.Day19" />
       <recent name="net.ethanstewart.advents.Day18" />
       <recent name="net.ethanstewart.advents.Day17" />
       <recent name="net.ethanstewart.advents.Day16" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Day19">
-    <configuration name="Day18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="net.ethanstewart.advents.Day18.Day18" />
-      <module name="main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="net.ethanstewart.advents.Day18.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Day20">
     <configuration name="Day19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="openjdk-23" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -257,6 +137,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="net.ethanstewart.advents.Day19.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="net.ethanstewart.advents.Day20.Day20" />
+      <module name="AdventOfCode2023Take2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.ethanstewart.advents.Day20.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -304,19 +197,19 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Day19" />
+        <item itemvalue="Application.Day20" />
+        <item itemvalue="JUnit.All in AdventOfCode2023Take2" />
         <item itemvalue="JUnit.AdventOutputTests" />
         <item itemvalue="JUnit.AdventOutputTests$Day8Test" />
-        <item itemvalue="JUnit.All in AdventOfCode2023Take2" />
-        <item itemvalue="Application.Day18" />
+        <item itemvalue="Application.Day19" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.22855.74" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.22855.74" />
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
       </set>
     </attachedChunks>
   </component>
@@ -336,6 +229,10 @@
       <workItem from="1729348023749" duration="140000" />
       <workItem from="1729348555960" duration="133000" />
       <workItem from="1729348699017" duration="939000" />
+      <workItem from="1729861490712" duration="3707000" />
+      <workItem from="1729889331367" duration="1318000" />
+      <workItem from="1729938602051" duration="346000" />
+      <workItem from="1729938973033" duration="1917000" />
     </task>
     <task id="LOCAL-00001" summary="Advents 1-15.a Complete">
       <created>1727618581309</created>
